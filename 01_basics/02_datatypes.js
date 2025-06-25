@@ -7,7 +7,7 @@ console.log("Neharika")
 
 let name ="neharika"
 let age ="18"
-let loggeIn = "false"
+let loggedIn = "false"
 
 let state = null//null value
 //primitive datatypes//
@@ -21,6 +21,6 @@ let state = null//null value
 
 //object
 
-console.console.log(typeof"Neharika");
+console.log(typeof"Neharika");
 
 
