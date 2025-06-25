@@ -21,6 +21,9 @@ let state = null//null value
 
 //object
 
-console.log(typeof"Neharika");
+console.log(typeof"Neharika")//string
+console.log(typeof"Undefined")//undefined
+console.log(typeof"null")//object
+
 
 
