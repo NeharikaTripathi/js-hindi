@@ -38,7 +38,7 @@ const myFunction = function(){//Object function
     console.log("Hello world");
 }
 
-console.log(typeof(anotherId))
+//console.log(typeof(anotherId))
 
 // node 01_basics/datatypes-summary.js
 /*
@@ -56,3 +56,23 @@ console.log(typeof(anotherId))
        Function  = object function
        Object  =  object 
 */
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(Primitive) ==>copy ,
+//  Heap(Non-Primitive) ==>reference
+//stack
+let myYoutubeName = "neharikatripathicom"
+let anothername = myYoutubeName
+ anothername = "diva"
+console.log(anothername);
+console.log(myYoutubeName)
+//heap
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let userTwo =userOne
+userTwo.email ="neharika@google.com"
+console.log(userOne.email)//email is changed
